@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2PNetwork", "P2PNetwork\P2PNetwork.csproj", "{AF02140D-780F-48B0-ABE1-94B9AAD98154}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2PNetwork.HostClient", "P2PNetwork.Client\P2PNetwork.HostClient.csproj", "{6A805D9C-433B-455E-831D-F0B78B666E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PNetwork.P2PListener", "P2PNetwork.P2PListener\P2PNetwork.P2PListener.csproj", "{2DD6307E-080D-4049-8667-9BDF08F5D416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF02140D-780F-48B0-ABE1-94B9AAD98154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF02140D-780F-48B0-ABE1-94B9AAD98154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF02140D-780F-48B0-ABE1-94B9AAD98154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF02140D-780F-48B0-ABE1-94B9AAD98154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A805D9C-433B-455E-831D-F0B78B666E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A805D9C-433B-455E-831D-F0B78B666E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A805D9C-433B-455E-831D-F0B78B666E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A805D9C-433B-455E-831D-F0B78B666E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD6307E-080D-4049-8667-9BDF08F5D416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD6307E-080D-4049-8667-9BDF08F5D416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD6307E-080D-4049-8667-9BDF08F5D416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD6307E-080D-4049-8667-9BDF08F5D416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36CDA24A-BC2B-43FC-A69E-B8691B7BB237}
+	EndGlobalSection
+EndGlobal

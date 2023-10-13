@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "P2PNetwork.Client": {
+      "commandName": "Project",
+      "commandLineArgs": "hostcode=lyftest2"
+    }
+  }
+}
