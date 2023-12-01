@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PNetwork", "P2PNetwork\P2PNetwork.csproj", "{01AC32FF-D83E-4CA5-B7B4-02FAA5DA72CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PNetwork.HostClient", "P2PNetwork.HostClient\P2PNetwork.HostClient.csproj", "{435AEA9D-44DE-479E-9F22-CBC8D6610DD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01AC32FF-D83E-4CA5-B7B4-02FAA5DA72CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AC32FF-D83E-4CA5-B7B4-02FAA5DA72CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AC32FF-D83E-4CA5-B7B4-02FAA5DA72CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AC32FF-D83E-4CA5-B7B4-02FAA5DA72CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435AEA9D-44DE-479E-9F22-CBC8D6610DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435AEA9D-44DE-479E-9F22-CBC8D6610DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435AEA9D-44DE-479E-9F22-CBC8D6610DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435AEA9D-44DE-479E-9F22-CBC8D6610DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C515211-1B82-4E86-AAAE-0C3A596D5569}
+	EndGlobalSection
+EndGlobal
